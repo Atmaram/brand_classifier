@@ -13,3 +13,11 @@ can be handled latter, once a decent accuracy is reached.
 
 Current model is a Naive Bayes, with no tuning done, and is the
 benchmark against which all further classifiers would be tested!
+
+
+Total dataset: 1 million records
+Training dataset: 600k records
+Cross Validation dataset: 200k records
+Test dataset: 200k records
+
+Stock Naive Bayes performance: ~72% accuracy (on cross validation set, not touched the test set yet)
