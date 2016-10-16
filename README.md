@@ -20,4 +20,13 @@ Training dataset: 600k records
 Cross Validation dataset: 200k records
 Test dataset: 200k records
 
-Stock Naive Bayes performance: ~72% accuracy (on cross validation set, not touched the test set yet)
+Stock Naive Bayes performance (Iteration 1):
+============================================
+~72% accuracy (on cross validation set, not touched the test set yet)
+
+Iteration 2 (Using first token as filter)
+=========================================
+Correct guesses: 145943
+Wrong guesses: 34007
+Passed: 20050
+Accuracy: 81.1019727702
